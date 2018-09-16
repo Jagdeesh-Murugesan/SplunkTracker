@@ -1,0 +1,20 @@
+{
+  "deploy_settings": {
+    "Ramesh": {
+      "skill_id": "amzn1.ask.skill.8e28dec8-ecf2-41bf-86a4-119e70163d60",
+      "was_cloned": false,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "SplunkTracker"
+              }
+            }
+          }
+        }
+      },
+      "in_skill_products": []
+    }
+  }
+}
